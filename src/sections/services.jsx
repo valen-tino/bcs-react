@@ -22,6 +22,12 @@ const Services = () => {
           <img className='absolute top-[45rem] left-0 md:top-[20rem] md:left-[-15vh] rotate-180 z-10 invisible md:visible' src={dots} alt="dots" />
           
           <div className='grid md:grid-cols-2 max-w-[1240px] m-auto rounded-full pt-5'>
+                <div className='flex flex-col justify-center visible w-full md:items-end sm:hidden'>
+                    <div className='p-10 bg-orange-200 rounded-l-full rounded-br-full'>
+                        <img src={visa} className='z-10 w-full h-full'/>
+                    </div>
+                </div>
+                  
                   <div className='flex flex-col justify-center w-full gap-5 py-0 md:items-start md:px-20 md:py-40'>
                       
                       <h1 className='z-10 py-2 pl-2 text-5xl leading-tight text-bold'>Visa Assistance Abroad</h1>
@@ -36,7 +42,8 @@ const Services = () => {
                       </div>                   
                         
                   </div>
-                  <div className='flex flex-col justify-center w-full md:items-end'>
+                  
+                  <div className='flex flex-col justify-center invisible w-full sm:visible md:items-end'>
                       <div className='p-10 bg-orange-200 rounded-l-full rounded-br-full'>
                           <img src={visa} className='z-10 w-full h-full'/>
                       </div>
@@ -69,9 +76,16 @@ const Services = () => {
           </div>
                         
           <div className='grid md:grid-cols-2 max-w-[1240px] m-auto rounded-full pt-10'>
+            
+                <div className='flex flex-col justify-center visible w-full md:items-end sm:hidden'>
+                      <div className='p-10 bg-orange-200 rounded-l-full rounded-br-full'>
+                          <img src={visa} className='z-10 w-full h-full'/>
+                      </div>
+                  </div>
+                  
                   <div className='flex flex-col justify-center w-full gap-5 py-0 md:items-start md:px-20 md:py-40'>
                         
-                      <h1 className='z-10 py-2 pl-2 text-4xl leading-tight text-bold'>Wedding Ceremony Organizer</h1>
+                      <h1 className='z-10 py-2 pl-2 text-5xl leading-tight text-bold'>Wedding Ceremony Organizer</h1>
                       <p className='pl-2 text-sm text-bold'>
                         <h3 className='text-md'>For Bali Only.</h3><br/>
                         A wedding is a very important event in Indonesia, and especially in Bali. Indonesians and expats marry in Bali.  Please don't hesitate to get in touch with us if you're interested in getting legally married in Bali. From A to Z, we'll help you succeed. In Indonesia, a religious ceremony is necessary in order to fulfill the legal requirements for marriage. 
@@ -84,7 +98,8 @@ const Services = () => {
                       
                         
                   </div>
-                  <div className='flex flex-col justify-center w-full md:items-end'>
+                  
+                  <div className='flex flex-col justify-center invisible w-full md:items-end sm:visible'>
                       <div className='p-10 bg-orange-200 rounded-l-full rounded-br-full'>
                           <img src={visa} className='z-10 w-full h-full'/>
                       </div>
