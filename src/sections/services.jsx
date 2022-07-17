@@ -39,7 +39,7 @@ const Services = () => {
                       <h1 className='z-10 py-2 pl-2 text-5xl leading-tight text-bold'>Visa Assistance Abroad</h1>
                       <p className='pl-2 text-sm text-bold'>We offer visa assistance services to a comprehensive range of visa services from Indonesia to countries in the Asia Pacific, Europe and America. Our services range from helping you apply for a visa to providing the necessary documents for your application. We also assist with any enquiries around the process of obtaining a visa.</p>
                       <h1 className='pl-2 text-lg text-bold'>Where do you want to go?</h1>
-                      <div className='flex flex-wrap gap-2 py-2 pl-2'>
+                      <div className='flex flex-wrap gap-2 pr-4'>
                           {dataVisaAbroad.VisaAbroad.map((item,key) => {
                               return (
                                   <button className='px-4 py-1 modal-open' key={key} onClick={() => getData(item.title, item.desc)}>{item.title}</button>
@@ -68,7 +68,7 @@ const Services = () => {
                       <h1 className='z-10 py-2 pl-2 text-5xl leading-tight text-bold'>Visa Assistance in Bali</h1>
                       <p className='pl-2 pr-2 text-sm text-bold'>We also offer visa assistance services in Bali, Indonesia. Our services range from helping you apply for a visa to providing the necessary documents for your application. We also assist with any enquiries around the process of obtaining a visa.</p>
                       <h1 className='pl-2 pr-2 text-lg text-bold'>Where do you want to go?</h1>
-                      <div className='flex flex-wrap gap-2 py-2 pr-2'>
+                      <div className='flex flex-wrap gap-2 py-2 pr-4'>
                       {dataVisaBali.VisaBali.map((item,key) => {
                               return (
                                   <button className='px-4 py-1 modal-open' key={key} onClick={() => getData(item.title, item.desc)}>{item.title}</button>
