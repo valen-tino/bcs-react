@@ -7,14 +7,14 @@ const Navbar = () => {
   const scrollPosition = useScrollPosition()
   const toggleNav = () => setNav(!Nav)
   
-  function classNames(...classes) {
+  function classFunc(...classes) {
     return classes.filter(Boolean).join(' ')
   }
 
 
     return (
       <>
-        <nav className={classNames(scrollPosition > 0 ? 'drop-shadow-xl' : 'drop-shadow-none','w-screen h-[80px] z-20 bg-orange-100 fixed font-Sora')}>
+        <nav className={classFunc(scrollPosition > 0 ? 'drop-shadow-xl' : 'drop-shadow-none','w-screen h-[80px] z-20 bg-orange-100 fixed font-Sora')}>
           <div className='flex items-center justify-between h-full px-2'>
 
             <div className='flex items-center'>
