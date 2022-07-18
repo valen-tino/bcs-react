@@ -204,8 +204,8 @@ const Services = () => {
 
                             <h1 className='z-10 py-2 pl-2 text-5xl leading-tight text-bold' data-aos="fade-down">Travel Insurance</h1>
                             <p className='pl-2 text-sm text-bold' data-aos="fade-down">
-                                <h3 className='text-md'>Issuing CHUBB Travel insurance only.</h3><br />
                                 <h1 className='text-lg'>All you need to know to travel smarter.</h1>
+                                <h3 className='text-md'>Issuing CHUBB Travel insurance only.</h3><br />
                                 Learn more about our product and get some travel tips while you are preparing for your next vacation.<br /><br />
                                 Click for further information :  <button className='px-2 py-1'>Click Here!</button><br /><br />
                                 To reserve and book your travel insurance online, kindly please contact us

@@ -1,7 +1,7 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import React, {useState} from 'react'
-import logoIcon from '../assets/logo.webp'
+import logoIcon from '../assets/logo.svg'
 import useScrollPosition from '../hooks/useScrollPosition'
 
 const Navbar = () => {
@@ -21,7 +21,7 @@ const Navbar = () => {
           <div className='flex items-center justify-between h-full px-2'>
 
             <div className='flex items-center'>
-              <h1 className='mr-4 font-bold md:ml-8'><img src={logoIcon} width='100px'/></h1>
+              <h1 className='mr-4 font-bold md:ml-8'><img src={logoIcon} width='100px' alt='BCS Logo'/></h1>
               <ul className='hidden md:flex'>
                 <li><a className='navlinks' href='#hero'>Home</a></li>
                 <li><a className='navlinks' href='#services'>Our Services</a></li>
