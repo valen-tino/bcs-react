@@ -17,7 +17,7 @@ const OurTeam = {
         {
             id:3,
             name:'Panacea Augusta Jehaut',
-            title:'Accounting',
+            title:'Admin',
             desc:'Test',
             path:'valennew.jpg'
         }

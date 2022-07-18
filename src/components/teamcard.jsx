@@ -1,20 +1,24 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import React from 'react'
 
 export default function teamCard (props) {
+    AOS.init();
     const name = props.name
     const title = props.title
     const desc = props.desc
-    const path = props.path; 
+    const path = props.path;
   
     return (
     <>
-        <div class="basis-1/3">
-            <div class="mx-auto flex w-auto md:w-96 flex-col justify-center bg-orange-100 rounded-2xl ">
-                <img class="aspect-square w-auto md:w-96 rounded-t-2xl object-cover object-center" src={path}/>
-                <div class="p-6">
-                    <small class="text-gray-900 text-md">{title}</small>
-                    <h1 class="text-2xl font-medium text-gray-700 pb-2">{name}</h1>
-                    <p class="text text-gray-500 leading-6">{desc}</p>
+        <div className="basis-1/3" data-aos="fade-up">
+            <div className="flex flex-col justify-center w-auto mx-auto bg-orange-100 md:w-96 rounded-2xl">
+                <img className="object-cover object-center w-auto aspect-square md:w-96 rounded-t-2xl" src={path}/>
+                <div className="p-6">
+                    <small className="text-gray-900 text-md">{title}</small>
+                    <h1 className="pb-2 text-2xl font-medium text-gray-700">{name}</h1>
+                    <p className="leading-6 text-gray-500 text">{desc}</p>
                 </div>
             </div>
          </div>

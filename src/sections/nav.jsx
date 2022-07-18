@@ -1,8 +1,11 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import React, {useState} from 'react'
 import logoIcon from '../assets/logo.png'
 import useScrollPosition from '../hooks/useScrollPosition'
 
 const Navbar = () => {
+  AOS.init();
   const [Nav, setNav] = useState(false)
   const scrollPosition = useScrollPosition()
   const toggleNav = () => setNav(!Nav)
@@ -14,7 +17,7 @@ const Navbar = () => {
 
     return (
       <>
-        <nav className={classFunc(scrollPosition > 0 ? 'drop-shadow-xl' : 'drop-shadow-none','w-screen h-[80px] z-20 bg-orange-100 fixed font-Sora')}>
+        <nav className={classFunc(scrollPosition > 0 ? 'drop-shadow-xl' : 'drop-shadow-none','w-screen h-[80px] z-20 bg-orange-100 fixed font-Sora')} data-aos="fade-down">
           <div className='flex items-center justify-between h-full px-2'>
 
             <div className='flex items-center'>
@@ -29,12 +32,12 @@ const Navbar = () => {
             </div>
 
             <div className='hidden pr-4 md:flex'>
-              <button className='px-8 py-3 whatsapp'><i class="fa-brands fa-whatsapp"></i> Lets Talk!</button>
+              <button className='px-8 py-3 whatsapp'><i className="fa-brands fa-whatsapp"></i> Lets Talk!</button>
               <button className='mr-4 text-black bg-transparent border-none'>EN</button>
             </div>
 
             <div className='px-8 md:hidden' onClick={toggleNav}>
-              {Nav ? <i class="fa-solid fa-times text-black"></i> : <i class="fa-solid fa-bars"></i>}
+              {Nav ? <i class="fa-solid fa-times text-black"></i> : <i className="fa-solid fa-bars"></i>}
             </div>
           </div>
 
@@ -45,7 +48,7 @@ const Navbar = () => {
             <li ><a className='navlinks'>Gallery</a></li>
             <li ><a className='navlinks'>Contact Us</a></li>
             <div className='flex flex-col pb-2 my-4 text-center border-b-2'>
-              <button className='px-8 py-3 my-3 whatsapp'><i class="fa-brands fa-whatsapp"></i> Lets Talk!</button>
+              <button className='px-8 py-3 my-3 whatsapp'><i className="fa-brands fa-whatsapp"></i> Lets Talk!</button>
               <button className='px-8 py-3 text-black'>EN</button>
             </div>
           </ul>
