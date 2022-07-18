@@ -8,6 +8,7 @@ import bali from '../assets/visa-bali.svg'
 import wedding from '../assets/married.webp'
 import translate from '../assets/translate.svg'
 import travel from '../assets/travel.svg'
+import info from '../assets/info.svg'
 
 import dataVisaAbroad from '../data/dataVisaAbroad'
 import dataVisaBali from '../data/dataVisaBali'
@@ -33,7 +34,7 @@ const Services = () => {
                     <div className='grid md:grid-cols-2 max-w-[1240px] m-auto rounded-full pt-5'>
                         <div className='flex flex-col justify-center visible w-full md:items-end sm:hidden' data-aos="fade-down">
                             <div className='p-10 bg-orange-200 rounded-l-full rounded-br-full'>
-                                <img src={visa} className='z-10 w-full h-full' />
+                                <img src={visa} className='z-10 w-full h-full' alt='Visa Assistance Abroad'/>
                             </div>
                         </div>
 
@@ -54,7 +55,7 @@ const Services = () => {
 
                         <div className='flex flex-col justify-center invisible w-full sm:visible md:items-end' data-aos="fade-down">
                             <div className='p-10 bg-orange-200 rounded-l-full rounded-br-full '>
-                                <img src={visa} className='z-10 w-full h-full' />
+                                <img src={visa} className='z-10 w-full h-full' alt='Visa Assistance Abroad'/>
                             </div>
                         </div>
                     </div>
@@ -62,7 +63,7 @@ const Services = () => {
                     <div className='grid md:grid-cols-2 max-w-[1240px] m-auto rounded-full pt-10'>
                         <div className='flex flex-col justify-center w-full md:items-end' data-aos="fade-down">
                             <div className='p-10 bg-orange-200 rounded-r-full rounded-bl-full'>
-                                <img src={bali} className='z-10 w-full h-full' />
+                                <img src={bali} className='z-10 w-full h-full' alt='Visa Assistance in Bali'/>
                             </div>
                         </div>
 
@@ -88,7 +89,7 @@ const Services = () => {
 
                         <div className='flex flex-col justify-center visible w-full md:items-end sm:hidden' data-aos="fade-down">
                             <div className='p-10 bg-orange-200 rounded-l-full rounded-br-full'>
-                                <img src={wedding} className='z-10 w-full h-full' />
+                                <img src={wedding} className='z-10 w-full h-full' alt='Wedding Ceremony Organizer'/>
                             </div>
                         </div>
 
@@ -110,7 +111,7 @@ const Services = () => {
 
                         <div className='flex flex-col content-center justify-center invisible w-full md:items-end sm:visible' data-aos="fade-down">
                             <div className='p-10 bg-orange-200 rounded-l-full rounded-br-full'>
-                                <img src={wedding} className='z-10 w-full h-full' />
+                                <img src={wedding} className='z-10 w-full h-full' alt='Wedding Ceremony Organizer'/>
                             </div>
                         </div>
                     </div>
@@ -118,7 +119,7 @@ const Services = () => {
                     <div className='grid md:grid-cols-2 max-w-[1240px] m-auto rounded-full pt-10'>
                         <div className='flex flex-col justify-center w-full md:items-end' data-aos="fade-down">
                             <div className='p-10 bg-orange-200 rounded-r-full rounded-bl-full'>
-                                <img src={translate} className='z-10 w-full h-full' />
+                                <img src={translate} className='z-10 w-full h-full' alt='Translate Document'/>
                             </div>
                         </div>
 
@@ -195,7 +196,7 @@ const Services = () => {
 
                         <div className='flex flex-col justify-center visible w-full md:items-end sm:hidden' data-aos="fade-down">
                             <div className='p-10 bg-orange-200 rounded-l-full rounded-br-full'>
-                                <img src={travel} className='z-10 w-full h-full' />
+                                <img src={travel} className='z-10 w-full h-full' alt='Travel Insurance'/>
                             </div>
                         </div>
 
@@ -220,7 +221,7 @@ const Services = () => {
 
                         <div className='flex flex-col content-center justify-center invisible w-full md:items-end sm:visible' data-aos="fade-down">
                             <div className='p-10 bg-orange-200 rounded-l-full rounded-br-full'>
-                                <img src={travel} className='z-10 w-full h-full' />
+                                <img src={travel} className='z-10 w-full h-full' alt='Travel Insurance'/>
                             </div>
                         </div>
                     </div>
@@ -228,7 +229,7 @@ const Services = () => {
                     <div className='grid md:grid-cols-2 max-w-[1240px] m-auto rounded-full pt-10'>
                         <div className='flex flex-col justify-center w-full md:items-end' data-aos="fade-down">
                             <div className='p-10 bg-orange-200 rounded-r-full rounded-bl-full'>
-                                <img src={translate} className='z-10 w-full h-full' />
+                                <img src={info} className='z-10 w-full h-full' alt='Other Services'/>
                             </div>
                         </div>
 

@@ -14,7 +14,7 @@ export default function teamCard (props) {
     <>
         <div className="basis-1/3" data-aos="fade-up">
             <div className="flex flex-col justify-center w-auto mx-auto bg-orange-100 md:w-96 rounded-2xl">
-                <img className="object-cover object-center w-auto aspect-square md:w-96 rounded-t-2xl" src={path}/>
+                <img className="object-cover object-center w-auto aspect-square md:w-96 rounded-t-2xl" src={path} alt={name}/>
                 <div className="p-6">
                     <small className="text-gray-900 text-md">{title}</small>
                     <h1 className="pb-2 text-2xl font-medium text-gray-700">{name}</h1>

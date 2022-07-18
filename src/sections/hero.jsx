@@ -23,7 +23,7 @@ AOS.init();
             </div>
 
             <div className='flex flex-col justify-center w-full md:items-end'>
-                <img src={heroImage} className='w-full h-full rounded-3xl'/>
+                <img src={heroImage} className='w-full h-full rounded-3xl' alt='deco-only'/>
             </div>
         </div>
     </div>
