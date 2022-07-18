@@ -21,7 +21,7 @@ const Navbar = () => {
           <div className='flex items-center justify-between h-full px-2'>
 
             <div className='flex items-center'>
-              <h1 className='mr-4 font-bold md:ml-8'><img src={logoIcon} width='100px' alt='BCS Logo'/></h1>
+              <h1 className='mr-4 font-bold transition duration-300 ease-in-out delay-150 md:ml-8 hover:-translate-y-1 hover:scale-110'><img src={logoIcon} width='100px' alt='BCS Logo'/></h1>
               <ul className='hidden md:flex'>
                 <li><a className='navlinks' href='#hero'>Home</a></li>
                 <li><a className='navlinks' href='#services'>Our Services</a></li>
@@ -41,7 +41,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <ul className={!Nav ? 'hidden' : 'absolute bg-orange-100 w-full px-8'} >
+          <ul className={!Nav ? 'hidden' : 'absolute bg-orange-100 w-full px-8'}>
             <li><a className='navlinks' href='#hero'>Home</a></li>
             <li><a className='navlinks' href='#services'>Our Services</a></li>
             <li ><a className='navlinks' href='#about'>About Us</a></li>
