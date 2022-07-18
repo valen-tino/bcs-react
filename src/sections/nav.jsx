@@ -1,7 +1,7 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import React, {useState} from 'react'
-import logoIcon from '../assets/logo.png'
+import logoIcon from '../assets/logo.webp'
 import useScrollPosition from '../hooks/useScrollPosition'
 
 const Navbar = () => {

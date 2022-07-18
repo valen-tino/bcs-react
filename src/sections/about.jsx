@@ -2,7 +2,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import React from 'react'
-import Vinsen from '../assets/bali.jpg'
+import Vinsen from '../assets/bali.webp'
 
 const About = () => {
   AOS.init();

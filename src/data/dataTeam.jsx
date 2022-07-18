@@ -12,14 +12,14 @@ const OurTeam = {
             name:'Valentino Yudhistira Jehaut',
             title:'Web Developer',
             desc:'valenjehaut.xyz',
-            path:'valennew.jpg'
+            path:'valennew.webp'
         },
         {
             id:3,
             name:'Panacea Augusta Jehaut',
             title:'Admin',
             desc:'Test',
-            path:'valennew.jpg'
+            path:'valennew.webp'
         }
     ]
 }

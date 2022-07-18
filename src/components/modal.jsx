@@ -1,6 +1,9 @@
 import React from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Modal (props) {
+  AOS.init();
   const title = props.title
   const desc = props.desc
   const hide = props.hide
@@ -9,7 +12,7 @@ export default function Modal (props) {
     <>
         <div className="fixed inset-0 z-50 flex items-center justify-center overflow-x-hidden overflow-y-auto outline-none focus:outline-none">
             <div className="relative w-auto max-w-3xl mx-auto my-6 y">
-              <div className="relative flex flex-col w-full bg-orange-100 border-0 rounded-lg shadow-lg outline-none focus:outline-none">
+              <div className="relative flex flex-col w-full bg-orange-100 border-0 rounded-lg shadow-lg outline-none focus:outline-none" data-aos="fade-down">
                 <div className="relative flex-auto p-4">
                   <h3 className="text-3xl font-semibold">{title}</h3><br/>
                   <p className="text-xs leading-relaxed text-black">{desc}</p>

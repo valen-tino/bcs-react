@@ -5,7 +5,6 @@ import React from 'react'
 import TeamCard from '../components/teamcard'
 import OurTeam from '../data/dataTeam'
 import pattern from '../assets/pattern.svg'
-import dots from '../assets/dots.svg'
 
 const Team = () => {
 AOS.init();
