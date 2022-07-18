@@ -45,8 +45,8 @@ const Navbar = () => {
             <li><a className='navlinks' href='#hero'>Home</a></li>
             <li><a className='navlinks' href='#services'>Our Services</a></li>
             <li ><a className='navlinks' href='#about'>About Us</a></li>
-            <li ><a className='navlinks'>Gallery</a></li>
-            <li ><a className='navlinks'>Contact Us</a></li>
+            <li ><a className='navlinks' href='#'>Gallery</a></li>
+            <li ><a className='navlinks' href='#'>Contact Us</a></li>
             <div className='flex flex-col pb-2 my-4 text-center border-b-2'>
               <button className='px-8 py-3 my-3 whatsapp'><i className="fa-brands fa-whatsapp"></i> Lets Talk!</button>
               <button className='px-8 py-3 text-black'>EN</button>
