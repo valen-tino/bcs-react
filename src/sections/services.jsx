@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 import visa from '../assets/visa-abroad.svg'
 import dots from '../assets/dots.svg'
 import bali from '../assets/visa-bali.svg'
-import wedding from '../assets/married.webp'
+import wedding from '../assets/married.svg'
 import translate from '../assets/translate.svg'
 import travel from '../assets/travel.svg'
 import info from '../assets/info.svg'
