@@ -4,7 +4,7 @@ export default function teamCard (props) {
     const name = props.name
     const title = props.title
     const desc = props.desc
-    const path = "src/"+props.path; 
+    const path = props.path; 
   
     return (
     <>
