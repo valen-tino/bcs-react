@@ -22,7 +22,7 @@ const Navbar = () => {
               <ul className='hidden md:flex'>
                 <li><a className='navlinks' href='#hero'>Home</a></li>
                 <li><a className='navlinks' href='#services'>Our Services</a></li>
-                <li><a className='navlinks'>About Us</a></li>
+                <li><a className='navlinks' href='#about'>About Us</a></li>
                 <li><a className='navlinks'>Gallery</a></li>
                 <li><a className='navlinks'>Contact Us</a></li>
               </ul>
@@ -41,7 +41,7 @@ const Navbar = () => {
           <ul className={!Nav ? 'hidden' : 'absolute bg-orange-100 w-full px-8'} >
             <li><a className='navlinks' href='#hero'>Home</a></li>
             <li><a className='navlinks' href='#services'>Our Services</a></li>
-            <li ><a className='navlinks'>About Us</a></li>
+            <li ><a className='navlinks' href='#about'>About Us</a></li>
             <li ><a className='navlinks'>Gallery</a></li>
             <li ><a className='navlinks'>Contact Us</a></li>
             <div className='flex flex-col pb-2 my-4 text-center border-b-2'>

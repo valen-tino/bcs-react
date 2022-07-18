@@ -1,6 +1,5 @@
 import React from 'react'
 import heroImage from '../assets/hero.png'
-import dots from '../assets/dots.svg'
 
 const Hero = () => {
   return (
