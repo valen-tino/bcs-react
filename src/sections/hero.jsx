@@ -15,7 +15,7 @@ AOS.init();
 
                 <p className='text-2xl text-bold' data-aos="fade-down">Want to make Abroad Visa?</p>
                 <h1 className='z-10 py-2 text-5xl leading-tight text-bold' data-aos="fade-down">Get free consultation<br/> with us now!</h1>
-                <div className='flex flex-row py-2' data-aos="fade-right" data-aos-easing="ease-in-sine">
+                <div className='flex flex-row py-2' data-aos="fade-up">
                     <button className='px-8 py-3 mr-2 whatsapp' ><i className="fa-brands fa-whatsapp"></i> Lets Talk!</button>
                     <button className='px-8 py-3'><a href='#services'>Learn More</a></button>
                 </div>

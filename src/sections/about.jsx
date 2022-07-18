@@ -12,13 +12,13 @@ const About = () => {
         <div className='relative flex flex-col justify-between w-full max-h-fit font-Sora rounded-3xl' id='hero'>
             <div className='grid bg-orange-200 md:grid-cols-2'>
                 
-                <div className='flex flex-col justify-center w-full md:items-end' data-aos="fade-right">
+                <div className='flex flex-col justify-center w-full md:items-end' data-aos="fade-down">
                 <img src={Vinsen} className='w-full h-full rounded-3xl md:rounded-tr-3xl md:rounded-b-3xl'/>
                 </div>
                 
                 <div className='flex flex-col justify-center w-full px-5 pt-16 pb-6 md:pt-20 md:pl-10 md:items-start'>
-                    <h1 className='z-10 py-2 text-5xl leading-tight text-bold' data-aos="fade-left"><i className="fa-solid fa-circle-info"></i> About Us</h1><br/>
-                    <p data-aos="fade-left">
+                    <h1 className='z-10 py-2 text-5xl leading-tight text-bold' data-aos="fade-down"><i className="fa-solid fa-circle-info"></i> About Us</h1><br/>
+                    <p data-aos="fade-down">
                     Bali Connection Service (BCS) was first built in 2005. <br/><br/>
                     BCS, our Company has many years of experience in helping the local and expatriate community in Indonesia.<br/><br/>
 
